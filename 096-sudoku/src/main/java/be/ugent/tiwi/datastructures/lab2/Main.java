@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             System.out.println(new File(".").getAbsolutePath());
-            Sudoku s = new Sudoku("./lab2/lab2/1.txt");
+            Sudoku s = new Sudoku("1.txt");
 
             System.out.println("Start sudoku:");
             System.out.println(s);
@@ -38,7 +38,7 @@ public class Main {
     private static void solveEuler() {
         int total = 0;
         for (int i = 1; i < 51; ++i) {
-            StringBuilder sb = new StringBuilder("./lab2/lab2/sudokus/");
+            StringBuilder sb = new StringBuilder("sudokus/");
             sb.append(i);
             sb.append(".txt");
 
