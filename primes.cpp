@@ -45,7 +45,6 @@ void sieve(const unsigned int bound, vector<int>& primes) {
     }
 }
 
-// https://www.geeksforgeeks.org/segmented-sieve/
 // https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#Segmented_sieve
 vector<int> segmented_sieve(const unsigned int bound) {
     vector<int> primes;
