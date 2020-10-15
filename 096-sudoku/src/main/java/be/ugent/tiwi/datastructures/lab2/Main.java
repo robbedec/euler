@@ -34,7 +34,7 @@ public class Main {
     }
 
     // https://projecteuler.net/problem=96
-	// Solution: 24702
+    // Solution: 24702
     private static void solveEuler() {
         int total = 0;
         for (int i = 1; i < 51; ++i) {
